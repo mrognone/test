@@ -1,10 +1,10 @@
 #!/bin/bash
 
 SERVICE_NAME=demo
-PATH_TO_JAR=/home/ec2-user/demo/demo-0.0.1-SNAPSHOT.jar
-PATH_TO_CONFIG=/home/ec2-user/gilada/config.yml <=== SI ES QUE TENES, SUELE SER UN YML
-PID_PATH_NAME=/var/log/gilada-pid
-export DW_DEFAULT_LOGGING_PATH=/home/ec2-user/gilada
+PATH_TO_JAR=/project/demo/demo-0.0.1-SNAPSHOT.jar
+PATH_TO_CONFIG=/project/demo/config.yml <=== SI ES QUE TENES, SUELE SER UN YML
+PID_PATH_NAME=/var/log/demo-pid
+export DW_DEFAULT_LOGGING_PATH=/project/demo
 #Default values
 MIN_JVM_HEAP_SIZE=-Xms512m
 MAX_JVM_HEAP_SIZE=-Xms512m
