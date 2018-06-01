@@ -2,7 +2,7 @@
 
 SERVICE_NAME=demo
 PATH_TO_JAR=/project/demo/demo-0.0.1-SNAPSHOT.jar
-PATH_TO_CONFIG=/project/demo/config.yml <=== SI ES QUE TENES, SUELE SER UN YML
+#PATH_TO_CONFIG=/project/demo/config.yml <=== SI ES QUE TENES, SUELE SER UN YML
 PID_PATH_NAME=/var/log/demo-pid
 export DW_DEFAULT_LOGGING_PATH=/project/demo
 #Default values
