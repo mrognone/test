@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#FUNCIONA GATO
 SERVICE_NAME=demo
 PATH_TO_JAR=/project/demo/demo-0.0.1-SNAPSHOT.jar
 #PATH_TO_CONFIG=/project/demo/config.yml <=== SI ES QUE TENES, SUELE SER UN YML
